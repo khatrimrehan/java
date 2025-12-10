@@ -51,9 +51,14 @@
         }
 
     .reset-btn img {
-        height: 17px;
-        padding-top: 3px;
+        height: 18.9px;
+        padding-top: 0.5px;
 
+    }
+    
+    .reset {
+        
+        font-size: 1.2rem;
     }
 
     .line1 {
