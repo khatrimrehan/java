@@ -1,9 +1,18 @@
 let changeMode = document.getElementById("changemode")
-let lighT = document.getElementById("light")
-let loGo = document.getElementById("logo")
-let rSetBtn=document.getElementById("reset-btn")
-let finGer=document.getElementById("fingeR")
 
+let lighT = document.getElementById("light")
+
+let loGo = document.getElementById("logo")
+
+let rSetBtn = document.getElementById("reset-btn")
+
+let finGer = document.getElementById("fingeR")
+
+let cliCked = document.getElementById("finger-text")
+
+function clicked() {
+  cliCked.style.display = "none"
+}
 function lightmode() {
 
  loGo.src = "sparkel-dark.png"
