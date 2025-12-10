@@ -12,8 +12,12 @@ let cliCked = document.getElementById("clicked")
 
 let cliCcked = document.getElementsByClassName("finger-text")
 
+let miniSus = document.getElementById("minuses")
 
-const ignore = [rSetBtn, finGer, loGo, lighT];
+let incrimenTAnywhere = document.getElementById("incanywhere")
+
+
+const ignore = [rSetBtn, finGer, loGo, lighT, miniSus, cliCked, incrimenTAnywhere];
 
 document.addEventListener("click", (e) => {
     if (ignore.includes(e.target)) {
@@ -47,4 +51,30 @@ function darkmode() {
  var NAME = document.getElementById("changemode")
  
  NAME.className="lightmod"
+}
+
+
+let countEL = document.getElementById("count-el")
+
+let count = 0
+
+
+function incrimentAnywhere() {
+  count += 1
+  countEL.textContent = count
+}
+
+function clicked() {
+  count += 0
+  countEL.textContent = count
+}
+function minuses() {
+  count -= 1
+  countEL.textContent = count
+}
+
+function lineoNe() {
+   countEL.textContent = 0
+   count = -1
+
 }
