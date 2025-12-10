@@ -38,7 +38,7 @@
     
     .line0 {
         padding-top: 0px;
-        gap: 30px;
+        gap: 59px;
 
     }
         & .minus,
@@ -47,7 +47,7 @@
         }
 
         & .num {
-            font-size: 4.0rem;
+            font-size: 5.5rem;
         }
 
     .reset-btn img {
@@ -58,7 +58,7 @@
     
     .reset {
         
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding-bottom: 0.5px;
     }
 
