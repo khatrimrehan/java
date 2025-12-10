@@ -6,6 +6,7 @@
 :root{
     --back-groundcolor:#121212;
     --text-color:#ffffff;
+    --text-color-reset:#ffffff;
     --textnavleft-color1:#fffffff4;
     --textnavright-color2:#ffffffbb;
     --footer-textcolor:  #ffffffe2;
@@ -15,6 +16,7 @@
 .lightmode{
     --back-groundcolor:#d0d0d0;
     --text-color:#000000;
+    --text-color-reset:#000000;
     --textnavleft-color1:#000000f4;
     --textnavright-color2:#000000bb;
     --footer-textcolor:  #000000cc;
@@ -215,7 +217,7 @@ nav {
 
 .reset {
     
-    color: var(--text-color);
+    color: var(--text-color-reset);
     font-size: 1.6rem;
 }
 
