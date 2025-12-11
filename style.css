@@ -1,9 +1,15 @@
 @font-face {
- font-family: "Apple";
- src: url(/SF-Pro.ttf) format('truetype')
- url(/SF-Pro.ttf) format('woff2')
- ;
+    font-family: "Apple";
+    src: url("fonts/SF-Pro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+body {
+    font-family: "Apple", sans-serif;
+}
+
 
 .lightmode {
  transition: all 0.4s ease-out, color 0.2s ease-out;
@@ -67,7 +73,6 @@ body,
 }
 
 .main img {
- user-drag: none;
  /* Chrome/Safari */
  -webkit-user-drag: none;
  /* Safari */
