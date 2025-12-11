@@ -48,9 +48,9 @@ let countEL = document.getElementById("count-el")
 
 function incrimentAnywhere() {
   
-  count += 0
-  countEL.textContent = 0
- 
+  count += 1
+  countEL.textContent = count
+  
 }
 
 function countany() {
@@ -59,15 +59,15 @@ function countany() {
   countEL.textContent = count
  
 }
+
+
 function minuses() {
 
-  console.log(minUs)
-
   if (count > 0) {
-    count -= 1 + 1
+    count -= 1
 
   }
-  countEL.textContent = 0
+countEL.textContent = count
 }
 
 
@@ -77,6 +77,7 @@ function lineoNe() {
   count = -1
   countEL.textContent = 0
 }
+
 
 
 
